@@ -1,0 +1,14 @@
+.github-issues-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  padding: 10px 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.github-issues-header__logo {
+  width: 50px;
+}
