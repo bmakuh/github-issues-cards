@@ -1,0 +1,26 @@
+.gh-card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  text-align: left;
+  width: 300px;
+  margin: 10px;
+}
+
+.gh-card__state {
+  color: #aaa;
+}
+
+.gh-card__state::before {
+  content: "o";
+  color: green;
+}
+
+.gh-card__comments-icon {
+  width: 20px;
+}
+
+.gh-card__body-header {
+  font-size: 1rem;
+}
